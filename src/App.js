@@ -5,31 +5,54 @@ import './App.css';
 import { Component } from 'react';
 
 class App extends Component {
-  constructor()
-  {
+  constructor() {
     super();
 
     this.state = {
-      Monster1: {
-        name: 'Linda',
-      },
+      monsters:[
+      
+        {
+          name: 'Linda',
+          id: '12e11231e',
 
-      Monster2: {
-        name: 'Frank',
-      },
+        },
+    
+        {
+          name: 'Frank',
+          id: '12ed2dacas',
+        },
+    
+        {
+          name: 'Jacky',
+          id: '1231e',
+        },
 
-      Monster3: {
-        name: 'Jacky',
-      },
+        {
+          name: 'Mickey',
+          id: '12e1e213',
+        },
+
+      ]
     };
   }
+
+
+      
+  
 
   render() {
     return (
       <div className="App">
-        <h1>{this.state.Monster1.name}</h1>
-        <h1>{this.state.Monster2.name}</h1>
-        <h1>{this.state.Monster3.name}</h1>
+        
+        {
+          this.state.monsters.map((monster) => {
+              return(
+              <div key={monster.id}>
+                <h1>{monster.name}</h1>
+                </div>
+              );
+           })
+        }
       </div>
     );
   }
