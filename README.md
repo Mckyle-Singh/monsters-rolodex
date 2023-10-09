@@ -1,3 +1,13 @@
+Monster-Rolodex
+--------------------------------
+This app is a small project which is a part of a react-course i was doing through udemy.
+It allows users to search though different monsters and present a list of monsters in a nice display
+
+![image](https://github.com/Mckyle-Singh/monsters-rolodex/assets/80856342/d6f34e5c-8847-43c0-a85a-1ac1e7ef49cb)
+![image](https://github.com/Mckyle-Singh/monsters-rolodex/assets/80856342/8fe3888d-e8f5-4cd3-8a14-7c4d9c54bfc3)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
